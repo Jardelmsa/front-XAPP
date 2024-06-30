@@ -1,0 +1,64 @@
+.body-login{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    background-image: url('../../shared/imgs/loginimg.jpg'); /* Substitua pelo caminho da sua imagem */
+    background-size: cover; /* Faz com que a imagem cubra toda a tela */
+    background-repeat: no-repeat; /* Impede a repetição da imagem */
+    background-position: center;  
+}
+
+.container-login{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.login-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 600px;
+    height: 550px;
+    background-color: #dede;
+    border-radius:15px;
+    margin-top:22vh;
+    padding:15px;
+    background: rgba(255, 255, 255, 0.137);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+
+}
+
+.text-label-form{
+    color:#dede;
+}
+
+div .form-control{
+    background-color: #dede;
+    width: 300px;
+}
+.btn-login{
+    width: 200px;
+    font-size: 16px;
+    border-radius: 15px;
+    background: linear-gradient(108deg, rgba(146,166,4,1) 0%, rgba(40,172,80,1) 100%);
+}
+
+.btn-login:hover{
+    background: linear-gradient(108deg, rgb(107, 121, 2) 0%, rgb(26, 114, 53) 100%);
+}
+
+.login-form div a{
+    text-align: center;
+    color:#dede;
+    text-decoration: none;
+}
+
+.botao-login{
+    display: flex;
+    flex-direction: column;
+}

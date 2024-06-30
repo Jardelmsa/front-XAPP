@@ -1,0 +1,21 @@
+/* You can add global styles to this file, and also import other style files */
+
+/* Importing Bootstrap SCSS file. */
+@import '../node_modules/bootstrap/';
+
+body{
+    background-color:#dedede;
+    font-family: "Varela Round", sans-serif;
+    font-weight: 400;
+    font-style: bolder;
+}
+
+.titulo-login{
+    font-family: "Varela Round", sans-serif;
+    font-weight: bolder;
+    font-size: 50px;
+    background: linear-gradient(108deg, rgba(146,166,4,1) 0%, rgba(40,172,80,1) 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
