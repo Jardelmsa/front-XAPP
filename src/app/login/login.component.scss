@@ -62,3 +62,9 @@ div .form-control{
     display: flex;
     flex-direction: column;
 }
+
+.criar-user:hover{
+    cursor: pointer;
+    color: chartreuse;
+    transition: 1s;
+}

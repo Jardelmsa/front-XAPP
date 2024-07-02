@@ -1,0 +1,33 @@
+
+<div class="container mt-5">
+    <div class="titulo-conta">
+        <label>Criar Nova Conta</label>
+    </div>
+    <div class="container-forms mt-5">
+        <div class="form-itens">
+            <div class="email">
+                <label>Email:</label>
+                <input type="text" [(ngModel)]="Email"  class="form-control"/>
+            </div>
+            <div class="senha mt-3">
+                <label>Senha:</label>
+                <input type="password" [(ngModel)]="Senha"  class="form-control"/>
+            </div>
+            <div class="senha mt-3">
+                <label>Celular:</label>
+                <input type="text"  [(ngModel)]="Celular" class="form-control"/>
+            </div>
+            <div class="idade mt-3">
+                <label>Idade:</label>
+                <input type="text"  [(ngModel)]="Idade" class="form-control"/>
+            </div>
+            <div class="botao-acoes mt-5 container-button">
+              
+                    <button class="btn btn-success" (click)="postCreateAccount()">Criar Conta</button>
+                
+                    <button class="btn btn-primary btn-left" (click)="irParaLogin()">Voltar</button>
+               
+            </div>
+        </div>
+    </div>
+</div>
